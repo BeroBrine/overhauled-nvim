@@ -54,5 +54,6 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = ","
 
 vim.g.markdown_recommended_style = 0
-
 vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
+
+vim.api.nvim_set_hl(0, "LineNr", { fg = "yellow", bold = true })

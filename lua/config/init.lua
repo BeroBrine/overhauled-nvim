@@ -28,4 +28,5 @@ return {
     typescript = true,
     vuejs = true,
   },
+
 }

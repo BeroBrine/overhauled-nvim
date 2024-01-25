@@ -1,0 +1,735 @@
+Highlighting groups for various occasions
+-----------------------------------------
+SpecialKey	SpecialKey
+TermCursor	TermCursor
+Directory	Directory NeoTreeDirectoryName NeoTreeDirectoryIcon NeoTreeFileIcon TelescopePreviewDate TelescopePreviewDirectory
+ErrorMsg	ErrorMsg NvimInvalidSpacing
+IncSearch	IncSearch
+Search	Search NeoTreePreview TelescopePreviewMatch
+CurSearch	CurSearch
+MoreMsg	MoreMsg
+ModeMsg	ModeMsg
+LineNr	LineNr LineNrAbove LineNrBelow TelescopeResultsLineNr
+CursorLineNr	CursorLineNr
+Question	Question
+StatusLine	StatusLine MsgSeparator NeoTreeStatusLine
+StatusLineNC	StatusLineNC NeoTreeStatusLineNC
+
+Syntax highlighting groups
+--------------------------
+WinSeparator	WinSeparator NeoTreeWinSeparator
+VertSplit	VertSplit NeoTreeVertSplit
+Title	Title
+Visual	Visual NvimSurroundHighlight NoiceFormatConfirmDefault TelescopePreviewLineegt1dottleegrrrrrntnlornrrlltlrdnefseecgllecrdcrdrnrrddyo5432tloegrgd
+WarningMsg	WarningMsg
+WildMenu	WildMenu
+Folded	Folded
+FoldColumn	FoldColumn CursorLineFold
+DiffAdd	DiffAdd TelescopeResultsDiffAdd
+DiffChange	DiffChange TelescopeResultsDiffChange
+DiffDelete	DiffDelete TelescopeResultsDiffDelete
+DiffText	DiffText
+SignColumn	SignColumn CursorLineSign EdgyIcon NeoTreeSignColumn
+Conceal	Conceal
+SpellBad	SpellBad
+SpellCap	SpellCap
+SpellRare	SpellRare
+SpellLocal	SpellLocal
+Pmenu	Pmenu PmenuKind PmenuExtra NoicePopupmenu
+PmenuSel	PmenuSel PmenuKindSel PmenuExtraSel NoicePopupmenuSelected
+PmenuSbar	PmenuSbar NoiceScrollbar
+PmenuThumb	PmenuThumb NoiceScrollbarThumb
+TabLine	TabLine
+TabLineSel	TabLineSel
+TabLineFill	TabLineFill
+CursorColumn	CursorColumn
+QuickFixLine	QuickFixLine
+Whitespace	Whitespace
+NormalNC	NormalNC NeoTreeNormalNC
+NormalFloat	NormalFloat WhichKeyFloat DapUIFloatNormal HydraHint EdgyNormal NoiceSplit NoicePopup NeoTreeFloatNormal NullLsInfoBorder
+MsgArea	MsgArea NoiceMini NoiceCmdline
+FloatBorder	FloatBorder WhichKeyBorder HydraBorder NoiceSplitBorder NoicePopupmenuBorder NoicePopupBorder NeoTreeFloatBorder
+WinBar	WinBar WinBarNC EdgyWinBar
+Cursor	Cursor NoiceCursor
+FloatTitle	FloatTitle
+lCursor	lCursor
+Normal	Normal NvimSpacing NeoTreeNormal NotifyBackground NotifyTRACEBody NotifyDEBUGBody NotifyINFOBody NotifyWARNBody NotifyERRORBody DapUINormal DapUIVariable
+	DapUIValue DapUIFrameName DapUINormalNC NoiceConfirm NoiceCmdlinePopup
+Substitute	Substitute
+FloatShadow	FloatShadow
+FloatShadowThrough	FloatShadowThrough
+RedrawDebugNormal	RedrawDebugNormal
+RedrawDebugClear	RedrawDebugClear
+RedrawDebugComposed	RedrawDebugComposed
+RedrawDebugRecompose	RedrawDebugRecompose
+Error	Error NvimInvalid NvimInvalidAssignment NvimInvalidPlainAssignment NvimInvalidAugmentedAssignment NvimInvalidAssignmentWithAddition
+	NvimInvalidAssignmentWithSubtraction NvimInvalidAssignmentWithConcatenation NvimInvalidOperator NvimInvalidUnaryOperator NvimInvalidUnaryPlus
+	NvimInvalidUnaryMinus NvimInvalidNot NvimInvalidBinaryOperator NvimInvalidComparison NvimInvalidComparisonModifier NvimInvalidBinaryPlus
+	NvimInvalidBinaryMinus NvimInvalidConcat NvimInvalidConcatOrSubscript NvimInvalidOr NvimInvalidAnd NvimInvalidMultiplication NvimInvalidDivision
+	NvimInvalidMod NvimInvalidTernary NvimInvalidTernaryColon NvimInvalidDelimiter NvimInvalidParenthesis NvimInvalidLambda NvimInvalidNestingParenthesis
+	NvimInvalidCallingParenthesis NvimInvalidSubscript NvimInvalidSubscriptBracket NvimInvalidSubscriptColon NvimInvalidCurly NvimInvalidContainer
+	NvimInvalidDict NvimInvalidList NvimInvalidValue NvimInvalidIdentifier NvimInvalidIdentifierScope NvimInvalidIdentifierScopeDelimiter
+	NvimInvalidIdentifierName NvimInvalidIdentifierKey NvimInvalidColon NvimInvalidComma NvimInvalidArrow NvimInvalidRegister NvimInvalidNumber NvimInvalidFloat
+	NvimInvalidNumberPrefix NvimInvalidOptionSigil NvimInvalidOptionName NvimInvalidOptionScope NvimInvalidOptionScopeDelimiter NvimInvalidEnvironmentSigil
+	NvimInvalidEnvironmentName NvimInvalidString NvimInvalidStringQuote NvimInvalidSingleQuote NvimInvalidDoubleQuote NvimInvalidDoubleQuotedUnknownEscape
+	NvimInvalidFigureBrace NvimDoubleQuotedUnknownEscape luaParenError luaError
+Todo	Todo
+String	String
+Constant	Constant
+Character	Character
+Function	Function
+Identifier	Identifier
+Statement	Statement Conditional Repeat Label Exception luaStatement TelescopePreviewWrite TelescopePreviewSocket
+Operator	Operator
+Keyword	Keyword
+PreProc	PreProc
+Type	Type
+Special	Special
+Debug	Debug
+DiagnosticError	DiagnosticError DiagnosticVirtualTextError DiagnosticFloatingError DiagnosticSignError NvimDapVirtualTextError NoiceFormatLevelError MiniHipatternsFixme
+DiagnosticWarn	DiagnosticWarn DiagnosticFloatingWarn DiagnosticSignWarn NoiceCmdlinePopupBorderSearch NoiceCmdlineIconSearch MiniHipatternsHack
+DiagnosticInfo	DiagnosticInfo DiagnosticFloatingInfo DiagnosticSignInfo NoiceCmdlineIcon NoiceCmdlinePopupBorder NoiceConfirmBorder NoiceCmdlinePopupTitle
+	NoiceCmdlinePopupBorderFilter NoiceCmdlineIconHelp NoiceCmdlinePopupBorderHelp NoiceCmdlineIconCmdline NoiceCmdlinePopupBorderCmdline
+	NoiceCmdlinePopupBorderInput NoiceCmdlineIconInput NoiceCmdlinePopupBorderIncRename NoiceCmdlineIconIncRename NoiceCmdlinePopupBorderCalculator
+	NoiceCmdlinePopupBorderLua NoiceCmdlineIconCalculator NoiceCmdlineIconFilter NoiceCmdlineIconLua MiniHipatternsTodo
+DiagnosticHint	DiagnosticHint DiagnosticFloatingHint DiagnosticSignHint MiniHipatternsNote
+DiagnosticOk	DiagnosticOk DiagnosticVirtualTextOk DiagnosticFloatingOk DiagnosticSignOk
+DiagnosticUnderlineError	DiagnosticUnderlineError
+DiagnosticUnderlineWarn	DiagnosticUnderlineWarn
+DiagnosticUnderlineInfo	DiagnosticUnderlineInfo
+DiagnosticUnderlineHint	DiagnosticUnderlineHint
+DiagnosticUnderlineOk	DiagnosticUnderlineOk
+DiagnosticVirtualTextWarn	DiagnosticVirtualTextWarn NvimDapVirtualTextChanged NoiceFormatLevelWarn
+DiagnosticVirtualTextInfo	DiagnosticVirtualTextInfo NvimDapVirtualTextInfo NoiceFormatLevelInfo NoiceVirtualText
+DiagnosticVirtualTextHint	DiagnosticVirtualTextHint
+DiagnosticDeprecated	DiagnosticDeprecated
+DiagnosticUnnecessary	DiagnosticUnnecessary
+Comment	Comment
+@text	@text
+@text.literal	@text.literal
+@text.reference	@text.reference
+@text.title	@text.title
+@text.uri	@text.uri
+Underlined	Underlined
+@text.underline	@text.underline
+@text.todo	@text.todo luaTodo
+@comment	@comment WhichKeySeparator LspInfoTip NvimDapVirtualText NotifyLogTime luaComment luaCommentDelimiter TelescopeResultsComment
+@constant	@constant
+@constant.builtin	@constant.builtin
+@constant.macro	@constant.macro Number Boolean EdgyIconActive luaConstant TelescopePreviewUser TelescopeResultsConstant TelescopePreviewGroup TelescopePreviewBlock
+	TelescopePreviewCharDev TelescopePreviewPipe TelescopePreviewRead
+@define	@define
+@string	@string
+@string.escape	@string.escape
+@string.special	@string.special
+@character	@character
+@character.special	@character.special
+@number	@number Float NvimNumber NvimFloat luaNumber TelescopeResultsNumber
+@boolean	@boolean
+@float	@float
+@function	@function
+@function.builtin	@function.builtin
+@function.macro	@function.macro
+@parameter	@parameter
+@method	@method
+@field	@field
+@property	@property
+@constructor	@constructor
+@conditional	@conditional luaCondElse luaCond
+@repeat	@repeat luaRepeat luaFor
+@label	@label LspInfoBorder NullLsInfoHeader luaLabel
+@operator	@operator
+@keyword	@keyword
+@exception	@exception
+@type	@type
+@type.definition	@type.definition
+@storageclass	@storageclass
+@namespace	@namespace
+@include	@include
+@preproc	@preproc Include Define Macro PreCondit Macro
+@debug	@debug
+@tag	@tag
+MatchParen	MatchParen MatchParenCur MatchWord
+Ignore	Ignore
+NvimInternalError	NvimInternalError NvimFigureBrace NvimSingleQuotedUnknownEscape NvimInvalidSingleQuotedUnknownEscape
+CmpItemKindProperty	CmpItemKindProperty
+CmpItemKindMethod	CmpItemKindMethod
+CmpItemKindFunction	CmpItemKindFunction
+Bold	Bold
+@variable.builtin	@variable.builtin Identifier NvimIdentifier NvimIdentifierScope NvimIdentifierScopeDelimiter NvimIdentifierName NvimIdentifierKey NvimOptionName
+	NvimOptionScope NvimOptionScopeDelimiter NvimEnvironmentName luaFunc TelescopeResultsIdentifier TelescopeMultiIcon
+@type.builtin	@type.builtin
+AlphaHeader	AlphaHeader
+AlphaShortcut	AlphaShortcut
+DashboardIcon	DashboardIcon
+DashboardDesc	DashboardDesc
+DashboardKey	DashboardKey
+DashboardFooter	DashboardFooter
+DashboardHeader	DashboardHeader
+DashboardShortCut	DashboardShortCut
+NeoTreeDimText	NeoTreeDimText NeoTreeIndentMarker NeoTreeExpander
+TelescopeNormal	TelescopeNormal
+TelescopeBorder	TelescopeBorder TelescopeTitle
+LspReferenceWrite	LspReferenceWrite
+LspReferenceRead	LspReferenceRead
+LspReferenceText	LspReferenceText
+markdownLinkText	markdownLinkText
+@annotation	@annotation
+markdownCode	markdownCode
+markdownHeadingDelimiter	markdownHeadingDelimiter
+mkdCodeEnd	mkdCodeEnd
+mkdCodeStart	mkdCodeStart
+mkdCodeDelimiter	mkdCodeDelimiter
+htmlH2	htmlH2
+htmlH1	htmlH1
+qfFileName	qfFileName
+Italic	Italic
+VisualNOS	VisualNOS
+qfLineNr	qfLineNr
+@punctuation.bracket	@punctuation.bracket
+LeapBackdrop	LeapBackdrop
+CmpItemKindText	CmpItemKindText
+@keyword.coroutine	@keyword.coroutine
+SignColumnSB	SignColumnSB
+CursorIM	CursorIM
+@attribute	@attribute
+@tag.delimiter	@tag.delimiter
+CmpItemKindInterface	CmpItemKindInterface
+CmpItemKindVariable	CmpItemKindVariable
+LeapLabelPrimary	LeapLabelPrimary
+@none	@none
+@keyword.return	@keyword.return
+@keyword.operator	@keyword.operator NvimAssignment NvimPlainAssignment NvimAugmentedAssignment NvimAssignmentWithAddition NvimAssignmentWithSubtraction
+	NvimAssignmentWithConcatenation NvimOperator NvimUnaryOperator NvimUnaryPlus NvimUnaryMinus NvimNot NvimBinaryOperator NvimComparison NvimComparisonModifier
+	NvimBinaryPlus NvimBinaryMinus NvimConcat NvimConcatOrSubscript NvimOr NvimAnd NvimMultiplication NvimDivision NvimMod NvimTernary NvimTernaryColon
+	luaOperator luaSymbolOperator TelescopeResultsOperator
+@function.call	@function.call
+markdownH1	markdownH1
+markdownH2	markdownH2
+markdownCodeBlock	markdownCodeBlock
+@punctuation.special	@punctuation.special Tag SpecialChar Delimiter SpecialComment NvimRegister NvimStringSpecial NvimSingleQuotedQuote NvimDoubleQuotedEscape
+	NvimInvalidStringSpecial NvimInvalidSingleQuotedQuote NvimInvalidDoubleQuotedEscape NoiceCompletionItemKindDefault NoiceCompletionItemKindSnippet
+	NoiceCompletionItemKindConstant NoiceCompletionItemKindKeyword NoiceCompletionItemKindFolder NoiceCompletionItemKindUnit NoiceCompletionItemKindText
+	NoiceCompletionItemKindEnumMember NoiceCompletionItemKindProperty NoiceCompletionItemKindMethod NoiceCompletionItemKindFunction
+	NoiceCompletionItemKindConstructor NoiceCompletionItemKindColor NoiceCompletionItemKindField NoiceCompletionItemKindStruct NoiceCompletionItemKindValue
+	NoiceCompletionItemKindEnum NoiceCompletionItemKindModule NoiceCompletionItemKindFile NoiceCompletionItemKindInterface NoiceCompletionItemKindClass
+	NoiceCompletionItemKindVariable DressingSelectIdx NoicePopupmenuMatch NoiceFormatDate NotifyLogTitle NeoTreeBufferNumber NeoTreeFilterTerm luaSpecial
+	TelescopeMatching TelescopeResultsSpecialComment TelescopeResultsVariable TelescopePreviewLink
+LeapLabelSecondary	LeapLabelSecondary
+@punctuation.delimiter	@punctuation.delimiter Delimiter NvimParenthesis NvimLambda NvimNestingParenthesis NvimCallingParenthesis NvimSubscript NvimSubscriptBracket
+	NvimSubscriptColon NvimCurly NvimContainer NvimDict NvimList NvimColon NvimComma NvimArrow
+@type.qualifier	@type.qualifier StorageClass Structure Typedef NvimNumberPrefix NvimOptionSigil NvimEnvironmentSigil LspInfoFiletype NullLsInfoTitle luaTable
+	TelescopeMultiSelection
+@keyword.function	@keyword.function LspInfoList luaMetaMethod luaFunction TelescopeResultsField TelescopeResultsClass TelescopeResultsFunction TelescopePreviewSticky
+@tag.attribute	@tag.attribute
+LspCodeLens	LspCodeLens
+LspSignatureActiveParameter	LspSignatureActiveParameter
+LeapMatch	LeapMatch
+LspInlayHint	LspInlayHint
+CmpItemKindDefault	CmpItemKindDefault
+CmpItemMenu	CmpItemMenu
+CmpItemAbbrMatchFuzzy	CmpItemAbbrMatchFuzzy
+CmpItemAbbrMatch	CmpItemAbbrMatch
+CmpItemAbbrDeprecated	CmpItemAbbrDeprecated
+CmpItemAbbr	CmpItemAbbr
+CmpGhostText	CmpGhostText
+CmpDocumentationBorder	CmpDocumentationBorder
+CmpDocumentation	CmpDocumentation
+NotifyTRACETitle	NotifyTRACETitle
+NotifyDEBUGTitle	NotifyDEBUGTitle
+NotifyINFOTitle	NotifyINFOTitle
+NotifyWARNTitle	NotifyWARNTitle
+NotifyERRORTitle	NotifyERRORTitle
+NotifyTRACEIcon	NotifyTRACEIcon
+NotifyDEBUGIcon	NotifyDEBUGIcon
+NotifyINFOIcon	NotifyINFOIcon
+NotifyWARNIcon	NotifyWARNIcon
+NotifyERRORIcon	NotifyERRORIcon
+NotifyTRACEBorder	NotifyTRACEBorder
+NotifyDEBUGBorder	NotifyDEBUGBorder
+NotifyINFOBorder	NotifyINFOBorder
+NotifyWARNBorder	NotifyWARNBorder
+NotifyERRORBorder	NotifyERRORBorder
+LazyProgressTodo	LazyProgressTodo
+LazyProgressDone	LazyProgressDone
+WhichKeyValue	WhichKeyValue
+WhichKeyDesc	WhichKeyDesc
+WhichKeyGroup	WhichKeyGroup
+WhichKey	WhichKey
+AlphaButtons	AlphaButtons
+AlphaFooter	AlphaFooter
+AlphaHeaderLabel	AlphaHeaderLabel
+CmpItemKindKeyword	CmpItemKindKeyword
+CmpItemKindUnit	CmpItemKindUnit
+@text.warning	@text.warning
+@text.title.5	@text.title.5
+markdownH5	markdownH5
+@text.title.4	@text.title.4
+markdownH4	markdownH4
+@text.title.3	@text.title.3
+markdownH3	markdownH3
+@text.title.2	@text.title.2 LspInfoTitle EdgyTitle NoiceCmdlinePrompt NoiceFormatTitle NullLsInfoSources
+@text.strong	@text.strong
+@text.strike	@text.strike
+@text.note	@text.note
+@text.math	@text.math
+@text.environment	@text.environment
+@text.environment.name	@text.environment.name
+@text.emphasis	@text.emphasis
+@text.danger	@text.danger
+@symbol	@symbol
+@string.regex	@string.regex NvimString NvimStringBody NvimStringQuote NvimSingleQuote NvimSingleQuotedBody NvimDoubleQuote NvimDoubleQuotedBody NvimInvalidStringBody
+	NvimInvalidSingleQuotedBody NvimInvalidDoubleQuotedBody luaString2 luaString luaStringDelimiter TelescopePreviewSize TelescopePreviewExecute
+@method.call	@method.call TelescopeResultsMethod
+TelescopeResultsNormal	TelescopeResultsNormal
+TelescopeResultsBorder	TelescopeResultsBorder
+TelescopePromptBorder	TelescopePromptBorder
+TelescopePreviewNormal	TelescopePreviewNormal TelescopePreviewMessage TelescopePreviewMessageFillchar
+NoiceLspProgressSpinner	NoiceLspProgressSpinner
+NoiceFormatProgressTodo	NoiceFormatProgressTodo
+NoiceFormatProgressDone	NoiceFormatProgressDone
+TelescopeSelection	TelescopeSelection TelescopeSelectionCaret
+DashboardProjectIcon	DashboardProjectIcon
+DashboardProjectTitle	DashboardProjectTitle
+NoiceLspProgressClient	NoiceLspProgressClient
+ICursor	ICursor
+DashboardMruIcon	DashboardMruIcon
+DashboardProjectTitleIcon	DashboardProjectTitleIcon
+DashboardMruTitle	DashboardMruTitle
+DashboardFiles	DashboardFiles
+DashboardShortCutIcon	DashboardShortCutIcon
+TelescopePromptTitle	TelescopePromptTitle
+TelescopeResultsTitle	TelescopeResultsTitle
+TelescopePromptPrefix	TelescopePromptPrefix
+TelescopePreviewTitle	TelescopePreviewTitle
+TelescopePromptNormal	TelescopePromptNormal
+TelescopePreviewBorder	TelescopePreviewBorder
+NoiceLspProgressTitle	NoiceLspProgressTitle
+DiagnosiiucVirtualTextError	DiagnosiiucVirtualTextError
+DevIconDefault	DevIconDefault
+DevIconPhp	DevIconPhp
+DevIconM4A	DevIconM4A
+DevIconBazelBuild	DevIconBazelBuild
+DevIconLeex	DevIconLeex
+DevIconCSharpProject	DevIconCSharpProject
+DevIconErb	DevIconErb
+DevIconRazorPage	DevIconRazorPage
+DevIconCsh	DevIconCsh
+DevIconM4V	DevIconM4V
+DevIconLicense	DevIconLicense
+DevIconEpp	DevIconEpp
+DevIconJsx	DevIconJsx
+DevIconGif	DevIconGif
+DevIconGDScript	DevIconGDScript
+DevIconHbs	DevIconHbs
+DevIconMdx	DevIconMdx
+DevIconMl	DevIconMl
+DevIconAwk	DevIconAwk
+DevIconNix	DevIconNix
+DevIconBzl	DevIconBzl
+DevIconAsm	DevIconAsm
+DevIconLua	DevIconLua
+DevIconPromptPs1	DevIconPromptPs1
+DevIconDump	DevIconDump
+DevIconNswag	DevIconNswag
+DevIconPsb	DevIconPsb
+DevIconPsd	DevIconPsd
+DevIconPyc	DevIconPyc
+DevIconReScript	DevIconReScript
+DevIconReScriptInterface	DevIconReScriptInterface
+DevIconRmd	DevIconRmd
+DevIconScss	DevIconScss
+DevIconSln	DevIconSln
+DevIconKotlin	DevIconKotlin
+DevIconSml	DevIconSml
+DevIconSolidity	DevIconSolidity
+DevIconFs	DevIconFs
+DevIconGitIgnore	DevIconGitIgnore
+DevIconsbt	DevIconsbt
+DevIconStyl	DevIconStyl
+DevIconXml	DevIconXml
+DevIconSvg	DevIconSvg
+DevIconMOV	DevIconMOV
+DevIconSwift	DevIconSwift
+DevIconIni	DevIconIni
+DevIconREADME.md	DevIconREADME.md
+DevIconLog	DevIconLog
+DevIconMakefile	DevIconMakefile
+DevIconTextResource	DevIconTextResource
+DevIconMjs	DevIconMjs
+DevIconSystemVerilog	DevIconSystemVerilog
+DevIconTwig	DevIconTwig
+DevIconDesktopEntry	DevIconDesktopEntry
+DevIconDevuan	DevIconDevuan
+DevIconBat	DevIconBat
+DevIconTor	DevIconTor
+DevIconWebp	DevIconWebp
+DevIconXcPlayground	DevIconXcPlayground
+DevIconBash	DevIconBash
+DevIconDockerfile	DevIconDockerfile
+DevIconHtml	DevIconHtml
+DevIconConfiguration	DevIconConfiguration
+DevIconC	DevIconC
+DevIconPrisma	DevIconPrisma
+DevIconFish	DevIconFish
+DevIconYaml	DevIconYaml
+DevIconPp	DevIconPp
+DevIconHs	DevIconHs
+DevIconFennel	DevIconFennel
+DevIconEx	DevIconEx
+DevIconTempl	DevIconTempl
+DevIconCobol	DevIconCobol
+DevIconNodeModules	DevIconNodeModules
+DevIconArtix	DevIconArtix
+DevIconPl	DevIconPl
+DevIconTxt	DevIconTxt
+DevIconDart	DevIconDart
+DevIconVHDL	DevIconVHDL
+DevIconAOSC	DevIconAOSC
+DevIconToml	DevIconToml
+DevIconAlpine	DevIconAlpine
+DevIconArch	DevIconArch
+DevIconKotlinScript	DevIconKotlinScript
+DevIconLinux	DevIconLinux
+DevIconWindows	DevIconWindows
+DevIconApple	DevIconApple
+DevIconVue	DevIconVue
+DevIconBazel	DevIconBazel
+DevIconAzureCli	DevIconAzureCli
+DevIconYml	DevIconYml
+DevIconAppleScript	DevIconAppleScript
+DevIconXul	DevIconXul
+DevIconApp	DevIconApp
+DevIconVagrantfile	DevIconVagrantfile
+DevIconGemfile	DevIconGemfile
+DevIconJavaClass	DevIconJavaClass
+DevIconxaml	DevIconxaml
+DevIconTSConfig	DevIconTSConfig
+DevIconWebOpenFontFormat	DevIconWebOpenFontFormat
+DevIconTailwindConfig	DevIconTailwindConfig
+DevIconPrettier	DevIconPrettier
+DevIconSvelteConfig	DevIconSvelteConfig
+DevIconRakefile	DevIconRakefile
+DevIconObj	DevIconObj
+DevIconPy.typed	DevIconPy.typed
+DevIconDeb	DevIconDeb
+DevIconRpm	DevIconRpm
+DevIconProcfile	DevIconProcfile
+DevIconPackageLockJson	DevIconPackageLockJson
+DevIconGitCommit	DevIconGitCommit
+DevIconWebmanifest	DevIconWebmanifest
+DevIconTif	DevIconTif
+DevIconPackageJson	DevIconPackageJson
+DevIconR	DevIconR
+DevIconProlog	DevIconProlog
+DevIconTcl	DevIconTcl
+DevIconZig	DevIconZig
+DevIconcake	DevIconcake
+DevIconGitConfig	DevIconGitConfig
+DevIconZsh	DevIconZsh
+DevIconGitAttributes	DevIconGitAttributes
+DevIconVala	DevIconVala
+DevIconExcel	DevIconExcel
+DevIconXls	DevIconXls
+DevIconVlang	DevIconVlang
+DevIconWav	DevIconWav
+DevIconRar	DevIconRar
+DevIconSuo	DevIconSuo
+DevIconPdf	DevIconPdf
+DevIconNim	DevIconNim
+DevIconFortran	DevIconFortran
+DevIconPy	DevIconPy
+DevIconSql	DevIconSql
+DevIconAi	DevIconAi
+DevIconRproj	DevIconRproj
+DevIconRlib	DevIconRlib
+DevIconPyo	DevIconPyo
+DevIconPyd	DevIconPyd
+DevIconCrystal	DevIconCrystal
+DevIconJpg	DevIconJpg
+DevIconJpeg	DevIconJpeg
+DevIconPpt	DevIconPpt
+DevIconPackedResource	DevIconPackedResource
+DevIconOpenTypeFont	DevIconOpenTypeFont
+DevIconVimrc	DevIconVimrc
+DevIconSettingsJson	DevIconSettingsJson
+DevIconMustache	DevIconMustache
+DevIconNPMrc	DevIconNPMrc
+DevIconMp3	DevIconMp3
+DevIconNPMIgnore	DevIconNPMIgnore
+DevIconLuaurc	DevIconLuaurc
+DevIconMkv	DevIconMkv
+DevIconGvimrc	DevIconGvimrc
+DevIconGitModules	DevIconGitModules
+DevIconGitlabCI	DevIconGitlabCI
+DevIconSig	DevIconSig
+DevIconLock	DevIconLock
+DevIconFsi	DevIconFsi
+DevIconFsharp	DevIconFsharp
+DevIconEslintIgnore	DevIconEslintIgnore
+DevIconIco	DevIconIco
+DevIconTypeScriptReactTest	DevIconTypeScriptReactTest
+DevIconGruntfile	DevIconGruntfile
+DevIconEslintrc	DevIconEslintrc
+DevIconTestTypescript	DevIconTestTypescript
+DevIconFsscript	DevIconFsscript
+DevIconFlac	DevIconFlac
+DevIconEjs	DevIconEjs
+DevIconDropbox	DevIconDropbox
+DevIconSvelte	DevIconSvelte
+DevIconDrools	DevIconDrools
+DevIconDocx	DevIconDocx
+DevIconDoc	DevIconDoc
+DevIconCson	DevIconCson
+DevIconCp	DevIconCp
+DevIconCoffee	DevIconCoffee
+DevIconBmp	DevIconBmp
+DevIconAac	DevIconAac
+DevIconCsv	DevIconCsv
+DevIconHaml	DevIconHaml
+DevIconBrewfile	DevIconBrewfile
+DevIconAvif	DevIconAvif
+DevIconGraphQL	DevIconGraphQL
+DevIconCMake	DevIconCMake
+DevIconLess	DevIconLess
+DevIconClojure	DevIconClojure
+DevIconSass	DevIconSass
+DevIconScheme	DevIconScheme
+DevIconCs	DevIconCs
+DevIconRs	DevIconRs
+DevIconRedhat	DevIconRedhat
+DevIconRaspberryPiOS	DevIconRaspberryPiOS
+DevIconPop_OS	DevIconPop_OS
+DevIconZorin	DevIconZorin
+DevIcontodo	DevIcontodo
+DevIconParrot	DevIconParrot
+DevIconopenSUSE	DevIconopenSUSE
+DevIconUbuntu	DevIconUbuntu
+DevIconOpenBSD	DevIconOpenBSD
+DevIconSolus	DevIconSolus
+DevIconNixOS	DevIconNixOS
+DevIconsc	DevIconsc
+DevIconSlackware	DevIconSlackware
+DevIconManjaro	DevIconManjaro
+DevIconSabayon	DevIconSabayon
+DevIconMageia	DevIconMageia
+DevIconRockyLinux	DevIconRockyLinux
+DevIconKali	DevIconKali
+DevIconTs	DevIconTs
+DevIconIllumos	DevIconIllumos
+DevIconHeex	DevIconHeex
+DevIconEex	DevIconEex
+DevIconGuix	DevIconGuix
+DevIconGentoo	DevIconGentoo
+DevIconFreeBSD	DevIconFreeBSD
+DevIconLhs	DevIconLhs
+DevIconFedora	DevIconFedora
+DevIconXz	DevIconXz
+DevIconEndeavour	DevIconEndeavour
+DevIconJavaScriptReactSpec	DevIconJavaScriptReactSpec
+DevIconCMakeLists	DevIconCMakeLists
+DevIconRtf	DevIconRtf
+DevIconTiff	DevIconTiff
+DevIconElementary	DevIconElementary
+DevIconPptx	DevIconPptx
+DevIconGitLogo	DevIconGitLogo
+DevIconP	DevIconP
+DevIconCss	DevIconCss
+DevIconRobots	DevIconRobots
+DevIconCONTRIBUTING.md	DevIconCONTRIBUTING.md
+DevIconKey	DevIconKey
+DevIcongmi	DevIcongmi
+DevIconConfigRu	DevIconConfigRu
+DevIcongmni	DevIcongmni
+DevIconYang	DevIconYang
+DevIconwindi.config.ts	DevIconwindi.config.ts
+DevIconwindi.config.js	DevIconwindi.config.js
+DevIconLib	DevIconLib
+DevIconClojureDart	DevIconClojureDart
+DevIconvite.config.js	DevIconvite.config.js
+DevIconClojureJS	DevIconClojureJS
+DevIconnuxt.config.js	DevIconnuxt.config.js
+DevIconClojureC	DevIconClojureC
+DevIconhttp	DevIconhttp
+DevIconAbc	DevIconAbc
+DevIconCjs	DevIconCjs
+DevIconBabelConfig	DevIconBabelConfig
+DevIconZip	DevIconZip
+DevIconCPlusPlus	DevIconCPlusPlus
+DevIconYarnError	DevIconYarnError
+DevIconBf	DevIconBf
+DevIconJpegXl	DevIconJpegXl
+DevIconBin	DevIconBin
+DevIconHex	DevIconHex
+DevIconRobot	DevIconRobot
+DevIcongemini	DevIcongemini
+DevIconSvgrrc	DevIconSvgrrc
+DevIconJar	DevIconJar
+DevIconArduino	DevIconArduino
+DevIconDat	DevIconDat
+DevIconYarnLock	DevIconYarnLock
+DevIconConf	DevIconConf
+DevIconFbx	DevIconFbx
+DevIconDsStore	DevIconDsStore
+DevIconMli	DevIconMli
+DevIconCts	DevIconCts
+DevIconPsScriptModulefile	DevIconPsScriptModulefile
+DevIconJl	DevIconJl
+DevIconSh	DevIconSh
+DevIconDebian	DevIconDebian
+DevIconHxx	DevIconHxx
+DevIconCentos	DevIconCentos
+DevIconHurl	DevIconHurl
+DevIconJava	DevIconJava
+DevIconQuery	DevIconQuery
+DevIconBudgie	DevIconBudgie
+DevIconSpecJs	DevIconSpecJs
+DevIconHuff	DevIconHuff
+DevIconDb	DevIconDb
+DevIconKsh	DevIconKsh
+DevIconEnv	DevIconEnv
+DevIconEditorConfig	DevIconEditorConfig
+DevIconJs	DevIconJs
+DevIconHtm	DevIconHtm
+DevIconBibTeX	DevIconBibTeX
+DevIconHrl	DevIconHrl
+DevIconBashProfile	DevIconBashProfile
+DevIconPsManifestfile	DevIconPsManifestfile
+DevIconHpp	DevIconHpp
+DevIconBinaryGLTF	DevIconBinaryGLTF
+DevIconHh	DevIconHh
+DevIconGodotProject	DevIconGodotProject
+DevIconZshrc	DevIconZshrc
+DevIconFsx	DevIconFsx
+DevIconAlmalinux	DevIconAlmalinux
+DevIconTtf	DevIconTtf
+DevIconTextScene	DevIconTextScene
+DevIconMaterial	DevIconMaterial
+DevIconGulpfile	DevIconGulpfile
+DevIconLiquid	DevIconLiquid
+DevIconMint	DevIconMint
+DevIconMotoko	DevIconMotoko
+DevIconCpp	DevIconCpp
+DevIconVerilog	DevIconVerilog
+DevIconElm	DevIconElm
+DevIconTFVars	DevIconTFVars
+DevIconOgg	DevIconOgg
+DevIconOPUS	DevIconOPUS
+DevIconJson	DevIconJson
+DevIconMts	DevIconMts
+DevIconZshprofile	DevIconZshprofile
+DevIconBabelrc	DevIconBabelrc
+DevIconGemspec	DevIconGemspec
+DevIconRss	DevIconRss
+DevIconJsonc	DevIconJsonc
+DevIconTex	DevIconTex
+DevIconH	DevIconH
+DevIconBazelWorkspace	DevIconBazelWorkspace
+DevIconMarkdown	DevIconMarkdown
+DevIconImportConfiguration	DevIconImportConfiguration
+DevIconD	DevIconD
+DevIconExs	DevIconExs
+DevIconRb	DevIconRb
+DevIconBashrc	DevIconBashrc
+DevIconTestJavascriptReact	DevIconTestJavascriptReact
+DevIconZshenv	DevIconZshenv
+DevIconPm	DevIconPm
+DevIconTestJavascript	DevIconTestJavascript
+DevIconExe	DevIconExe
+DevIconWasm	DevIconWasm
+DevIconrazor	DevIconrazor
+DevIconGo	DevIconGo
+DevIconJson5	DevIconJson5
+DevIconRake	DevIconRake
+DevIconEmbeddedOpenTypeFont	DevIconEmbeddedOpenTypeFont
+DevIconPng	DevIconPng
+DevIconWebpack	DevIconWebpack
+DevIconTerraform	DevIconTerraform
+DevIconElf	DevIconElf
+DevIconLuau	DevIconLuau
+DevIconPyx	DevIconPyx
+DevIconEdn	DevIconEdn
+DevIconVim	DevIconVim
+DevIconSlim	DevIconSlim
+DevIconPyi	DevIconPyi
+DevIconErl	DevIconErl
+DevIconFavicon	DevIconFavicon
+DevIconPxi	DevIconPxi
+DevIconDeepin	DevIconDeepin
+DevIconPxd	DevIconPxd
+DevIconScala	DevIconScala
+DevIconWebm	DevIconWebm
+DevIconMixLock	DevIconMixLock
+DevIconVoid	DevIconVoid
+DevIconTsx	DevIconTsx
+DevIconDiff	DevIconDiff
+DevIconOrgMode	DevIconOrgMode
+DevIconTerminal	DevIconTerminal
+DevIconMd	DevIconMd
+DevIconCxx	DevIconCxx
+DevIconOut	DevIconOut
+DevIconSpecTs	DevIconSpecTs
+DevIconTypeScriptReactSpec	DevIconTypeScriptReactSpec
+DevIconMp4	DevIconMp4
+DapUIScope	DapUIScope
+DapUIType	DapUIType
+DapUIModifiedValue	DapUIModifiedValue
+DapUIDecoration	DapUIDecoration
+DapUIThread	DapUIThread
+DapUIStoppedThread	DapUIStoppedThread
+DapUISource	DapUISource
+DapUILineNumber	DapUILineNumber DapUIBreakpointsLine
+DapUIFloatBorder	DapUIFloatBorder
+DapUIWatchesEmpty	DapUIWatchesEmpty
+DapUIWatchesValue	DapUIWatchesValue
+DapUIWatchesError	DapUIWatchesError
+DapUIBreakpointsPath	DapUIBreakpointsPath
+DapUIBreakpointsInfo	DapUIBreakpointsInfo
+DapUIBreakpointsCurrentLine	DapUIBreakpointsCurrentLine DapUICurrentFrameName
+DapUIBreakpointsDisabledLine	DapUIBreakpointsDisabledLine
+DapUIStepOver	DapUIStepOver
+DapUIStepInto	DapUIStepInto
+DapUIStepBack	DapUIStepBack
+DapUIStepOut	DapUIStepOut
+DapUIStop	DapUIStop
+DapUIPlayPause	DapUIPlayPause
+DapUIRestart	DapUIRestart
+DapUIUnavailable	DapUIUnavailable
+DapUIWinSelect	DapUIWinSelect
+DapUIPlayPauseNC	DapUIPlayPauseNC
+DapUIRestartNC	DapUIRestartNC
+DapUIStopNC	DapUIStopNC
+DapUIUnavailableNC	DapUIUnavailableNC
+DapUIStepOverNC	DapUIStepOverNC
+DapUIStepIntoNC	DapUIStepIntoNC
+DapUIStepBackNC	DapUIStepBackNC
+DapUIStepOutNC	DapUIStepOutNC
+HydraRed	HydraRed
+HydraBlue	HydraBlue
+HydraAmaranth	HydraAmaranth
+HydraTeal	HydraTeal
+HydraPink	HydraPink
+NoiceHiddenCursor	NoiceHiddenCursor
+NeoTreeFloatTitle	NeoTreeFloatTitle
+NeoTreeTitleBar	NeoTreeTitleBar
+NeoTreeMessage	NeoTreeMessage
+NeoTreeFadeText1	NeoTreeFadeText1
+NeoTreeFadeText2	NeoTreeFadeText2
+NeoTreeDotfile	NeoTreeDotfile NeoTreeHiddenByName NeoTreeWindowsHidden NeoTreeGitIgnored
+NeoTreeCursorLine	NeoTreeCursorLine
+NeoTreeFileNameOpened	NeoTreeFileNameOpened
+NeoTreeRootName	NeoTreeRootName
+NeoTreeModified	NeoTreeModified
+NeoTreeGitAdded	NeoTreeGitAdded NeoTreeGitStaged
+NeoTreeGitDeleted	NeoTreeGitDeleted
+NeoTreeGitModified	NeoTreeGitModified NeoTreeGitRenamed
+NeoTreeGitConflict	NeoTreeGitConflict NeoTreeGitUnstaged
+NeoTreeGitUntracked	NeoTreeGitUntracked
+NeoTreeTabActive	NeoTreeTabActive
+NeoTreeTabInactive	NeoTreeTabInactive
+NeoTreeTabSeparatorActive	NeoTreeTabSeparatorActive
+NeoTreeTabSeparatorInactive	NeoTreeTabSeparatorInactive
+NeoTreeFileStats	NeoTreeFileStats
+NeoTreeFileStatsHeader	NeoTreeFileStatsHeader
+MiniHipatterns000000	MiniHipatterns000000
+NoiceAttr251	NoiceAttr251
